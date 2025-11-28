@@ -3,7 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Загрузка изображения и преобразование в ч/б
-image = Image.open('nature.jpg').convert('L')
+image = Image.open('images\original\nature.jpg').convert('L')
 image_array = np.array(image)
 
 print(f"Размер матрицы: {image_array.shape}")
